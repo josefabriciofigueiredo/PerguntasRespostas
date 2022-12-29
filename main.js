@@ -4,8 +4,8 @@ var arquivo = valor[0].split("/")[valor[0].split("/").length-1]
 
 console.log(valor)
 
-if (location.href == "https://perguntasrespostas-e5c00.web.app/") {
-    window.open="https://perguntasrespostas-e5c00.web.app?"
+if (location.href == "PerguntasRespostas") {
+    window.href="PerguntasRespostas?"
 }
 
 if (valor[tam] == "Resposta01" && arquivo == "perguntasrespostas-e5c00.web.app") {
